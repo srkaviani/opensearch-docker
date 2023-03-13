@@ -1,6 +1,6 @@
 # OpenSearch in Docker Compose
 
-![OpenSearch version](https://img.shields.io/badge/OpenSearch%20version-2.2.1-blue)
+![OpenSearch version](https://img.shields.io/badge/OpenSearch%20version-2.6.0-blue)
 
 Dockerized cluster architecture for OpenSearch with compose.
 
@@ -24,6 +24,7 @@ Now, we will generate the certificates for the cluster :
 ```bash
 # You may want to edit the OPENDISTRO_DN variable first
 bash generate-certs.sh
+chown -R 1000.1000 certs
 ```
 
 Start the cluster :
