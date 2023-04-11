@@ -2,6 +2,9 @@
 
 ![OpenSearch version](https://img.shields.io/badge/OpenSearch%20version-2.6.0-blue)
 
+![Alt](https://repobeats.axiom.co/api/embed/9643eacd844d425d7787167a8c6aa3b1c2d7d839.svg "Repobeats analytics image")
+
+
 Dockerized cluster architecture for OpenSearch with compose.
 
 ## Key concepts
